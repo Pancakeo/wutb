@@ -13,7 +13,8 @@ app.set('view engine', 'pug');
 app.use(express.static(web_root));
 app.use(compress());
 
-app.get('/', function(req, res) {
+// COw links to /index.php like a total scrub
+app.get(['/', '/index.php'], function(req, res) {
     fs.readdir(web_root + '/comics_high', function(err, files) {
         if (err != null) {
             throw err;
