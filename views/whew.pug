@@ -1,4 +1,6 @@
 - var highComics = highComicsWup.split('\n');
+- var lowComics = lowComicsWup.split('\n');
+- var characters = charactersWup.split('\n');
 
 head
   title Water Under The Bridge
@@ -15,5 +17,16 @@ body
         each val in highComics
           div(class='comicLink high', source=val)= val
 
+    p &nbsp;
 
-    //p #{name}'s Pug source code...
+    div.section Comics (lol artifacts)
+      div
+        each val in lowComics
+          div(class='comicLink low', source=val)= val
+
+    p &nbsp;
+
+    div.section It's The People Like You....
+      div
+        each val in characters
+          div(class='comicLink character', source=val)= val
