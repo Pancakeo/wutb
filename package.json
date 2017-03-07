@@ -1,0 +1,25 @@
+{
+  "name": "wutb",
+  "version": "1.0.0",
+  "description": "You ever miss?",
+  "main": "whew.js",
+  "scripts": {
+    "test": "echo yehrye"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pancakeo/wutb.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Pancakeo/wutb/issues"
+  },
+  "homepage": "https://github.com/Pancakeo/wutb#readme?HEH",
+  "devDependencies": {},
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}

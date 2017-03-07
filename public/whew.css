@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-size: 115%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background: #555;
+}
+
+body {
+    text-align: center;
+    border-left: 3px gold solid;
+    border-right: 3px gold solid;
+    padding: 3rem;
+    margin: 0 5rem;
+    background: black;
+    color: darkcyan;
+}
+
+.heading {
+    font-size: 2em;
+}
+
+.comicLink {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    cursor: pointer;
+    color: gold;
+    font-size: 1rem;
+}
+
+.section {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.comicLink:hover {
+    text-decoration: underline;
+}
